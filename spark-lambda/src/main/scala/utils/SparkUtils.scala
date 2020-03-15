@@ -7,6 +7,7 @@ import org.apache.spark.streaming.{Duration, StreamingContext}
 object SparkUtils {
 
   val checkpointDirectory = "hdfs://localhost:9000/user/anuraag/lambda/checkpoint"
+//  val checkpointDirectory = "/home/anuraag/Downloads/Applying the Lambda Architecture/checkpoint"
 
   def getSparkSession(appName: String) : SparkSession = {
 
